@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    max-width: 960;
+    margin: 0 auto;
+
+}
+body {
+    background-color: rgb(102, 192, 171);
+    } 
+    
+h1 {
+color: black;
+text-align: center;
+font-size: xx-large;
+}
+
+#fun-facts li {
+    font-size: medium;
+    grid-column: 1/2;
+    width: 50%;
+    text-align: justify;
+}
+
+nav {
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    font-family: American Typewriter;
+    font-size: 12px;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    padding: .5em;
+    font-size: medium;
+}
+
+
+#fun_facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
+    margin: 2cm;
+    font-size: large;
+}
+
+#fun_facts ol {
+    list-style-type: circle;
+}
+
+ul {
+    display: flex;
+    justify-content: center;    
+}
+
+.source {
+    text-align: center;
+}
+
+.source:hover {
+    color: blue;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(102, 192, 171);
+    } 
+    
+    h1 {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+    }
+    
+    li {
+        display: inline-block;
+        padding: .5em;
+        font-size: medium;
+    }
+    
+    nav {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 2px black;
+    }
+
+    
+    footer {
+        font-family: American Typewriter;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    

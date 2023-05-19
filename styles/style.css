@@ -1,0 +1,38 @@
+body {
+background-color: rgb(102, 192, 171);
+} 
+
+h1 {
+color: black;
+text-align: center;
+font-size: xx-large;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+/* Imporove this later using display flex */
+/* li {
+    display: inline-block;
+    padding: .5em;
+    font-size: medium; */
+/* }  */
+
+nav {
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    font-family: American Typewriter;
+    font-size: 12px;
+    text-align: left;
+}
